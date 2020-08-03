@@ -1,0 +1,486 @@
+body{
+    margin: 0;
+}
+/* start navbar*/
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+ .navbar-inverse .navbar-nav > .active > a:hover 
+{
+ background-color: #bc0c3d;
+}
+.dropdown-menu{
+    top: 101%;
+}
+.navbar-right .dropdown-menu{
+    right: -62%;
+    left: auto;
+    background-color: #201d1d;
+}
+.dropdown-menu > li > a{
+    color:  #9a8a8a;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a{
+    transition: all 0.7s ease;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover
+{
+    background-color:#bc0c3d;
+    margin-left: 5px;
+}
+.dropdown-menu .divider{
+    background-color:#bc0c3d ;
+}
+.navbar-brand{
+    font-size: 28px;
+    color:white
+    
+}
+.navbar-brand span{
+    color:#bc0c3d ;
+}
+.navbar-inverse .navbar-brand
+{
+    color: #d8c8c8;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+/* End navbar*/
+/* Start optionbox*/
+.option-box
+{
+  position:fixed;
+  top:100px;
+  left: 0px;
+  z-index: 9999;
+  color: white;
+}
+.option-box ul li{
+    background-color: brown;
+    display: inline-block;
+    padding: 10px;
+    width: 15px;
+    height: 10px;
+}
+.option-box ul
+{
+    padding-left: 10px;
+}
+.option-box i
+{
+    font-size: 40px;
+    color: white;
+    background-color:#bc0c3d ;
+} 
+.option-box .option{
+    padding-right: 20px;
+    padding-left:20px ;
+    float: left;
+    background-color: black;
+    border: 3px solid brown;
+    display: none;
+}
+/* End optionbox*/
+/* start social media*/
+div.first
+{
+    position: fixed;
+    left: 0px;
+    top: 210px;
+    z-index: 9999;
+}
+div.first :hover
+{
+width: 70px;
+}
+div.first i{
+color:white;
+background-color: #1b66db;
+padding:7px;
+}
+.seconed
+{
+    position: fixed;
+    left: 0px;
+    top: 255px;
+    z-index: 9999;
+    background-color: #2daae4;
+    padding:9px;
+}
+.seconed :hover
+{
+    width: 50px;
+}
+div.seconed i{
+color: white;
+}
+/* End social media*/
+/* start carousel*/
+.carousel-indicators .active
+{
+    width: 14px;
+    height: 14px;
+}
+.carousel-caption{
+    bottom: 30%;
+    background-color: rgba(50,50 ,50, 0.7)
+}
+h3{
+    color: wheat;
+}
+@media (max-width:768px){
+    #myCarousel
+     {
+         display: none;
+     }
+     .wow
+     {
+         margin-top: 200px;
+     }
+ }
+/* End carousel*/
+/* start Intro*/
+
+.main span{
+    color:#bc0c3d;
+}
+.main
+{
+    margin-top: 20px;
+    height: 200px;
+}
+.main h2{
+    font-weight: bold;
+}
+.features h2{
+    margin-bottom: 50px;
+}
+.features h3{
+    color:black;
+}
+.features
+{
+    background-color: #efe5e5;
+}
+.glyphicon{
+    font-size: 22px;
+}
+/* End Intro*/
+/* start Testmonials*/
+
+.testmonials-1
+{
+    height: 400px;
+}
+.testmonials-1 h1
+{
+    margin-top: 40px;
+    font-weight: bold;
+}
+.testmonials-1 p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.testmonials-1 span{
+    color:#bc0c3d ;
+    font-size: 16px;
+    font-weight: bold;
+}
+.testmonials-1 .carousel-indicators
+{
+   position: static;
+   width: 100%;
+   margin-left: auto;
+}
+.testmonials-1.carousel-inner
+{
+    min-width: 160px;
+    overflow: hidden;
+}
+.testmonials-1 .carousel-indicators li
+{
+    background-color: none;
+    text-indent: 0;
+    height: 60px;
+    width: 60px;
+    opacity:   0.4;
+    transition: all 0.5s ease-in-out;
+}
+.testmonials-1 .carousel-indicators li img
+{
+    max-width: 100%;
+    border-radius: 50%;
+   
+}
+.testmonials-1 .carousel-indicators  .active {
+    opacity:1
+}
+/* End Testmonials*/
+/* start Price*/
+.price{
+    background-color:#efe5e5;
+    padding: 10px;
+}
+.price h1{
+    margin-bottom:40px;
+    font-weight: bold;
+}
+.price .prices
+{
+    background-color:white ;
+    border: 1px solid #DDD;
+    padding: 5px;
+    line-height: 2;
+   box-shadow: black 0.5;
+   margin-bottom: 10px;
+}
+.price .prices:hover p{
+    transform: rotate(360deg) scale(1.1,1.1);
+    border: 5px #DDD solid;
+    
+}
+
+.price .prices p
+{
+  font-size: 26px;
+  font-weight: bold;
+  background-color: #d7d7d7;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  line-height: 60px;
+  transition:0.7s ease-in-out ;
+}
+.price .prices li{
+    font-size: 18px;
+}
+.red{
+    color: #ed534f;
+}
+.green
+{
+    color: #5cb85c;
+}
+.blue
+{
+    color: #337ab7;
+}
+.cyan
+{
+    color: #5bc0de;
+}
+/* End Price*/
+/* start Team*/
+.our-team{
+    background: url(images/nice-backgrounds-for-desktop-download-hd-4k-windows-10-mac-apple-colourful-images-backgrounds-download-wallpaper-free-1920x1200.jpg) fixed no-repeat center center  ;
+    background-size: cover;
+    width: 100%;
+    min-height: 600px;
+    color: white;
+}
+.our-team .team{
+    background-color: rgba(2,2,2,0.8);
+    min-height: 600px;
+    margin-top: 20px;
+}
+.team h1{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.team .group
+{
+    margin-bottom: 15px;
+}
+.team .group img{
+    max-width: 100%;
+    width: 220px;
+    height: 200px;
+    border-radius: 50%;
+}
+.group p{
+    font-size: 14px;
+}
+.group h4
+{
+ font-size: 25px;
+}
+/* End Team*/
+/* start Form1*/
+.subscribe{
+    height: 260px;
+    background-color: #EEE;
+}
+.subscribe h1{
+   color: #888;
+    letter-spacing: 2.5px;
+    margin-bottom: 15px;
+}
+.subscribe .form-control
+{
+    border-radius: 0;
+    margin-right: -5px;
+}
+.subscribe button
+{
+    border-radius:0;
+}
+/* End Form1*/
+/* start Statistics*/
+.stats{
+    background: url(images/laptop-header.jpg) center center fixed no-repeat ;
+    width: 100%;
+    background-size: cover;
+}
+.stats .overlay
+{
+    background-color: rgba(2,2,2,0.8);
+    width: 100%;
+    height: 100%;
+    min-height:300px;
+
+}
+.stats .overlay .statistics
+{
+    color: #bcb1b1;
+    margin-bottom: 15px;
+}
+.stats .overlay  h1{
+    margin-bottom: 25px;
+    color: #bcb1b1;
+    font-weight: bold;
+}
+.stats .overlay .statistics i
+{
+   font-size:90px;
+   transition: all 0.5s ease-in-out;
+}
+.stats .overlay .statistics:hover i
+{
+color: white;
+transform: scale(1.2,1.2);
+}
+.stats .overlay .statistics p{
+    font-size: 25px;
+    margin-top: 10px;
+    color: #bcb1b1 ;
+    margin-bottom: 0px;
+}
+.stats .overlay .statistics span{
+  font-size: 16px;
+}
+/* End Statistics*/
+/* start Progress*/
+.prog .heading h1
+{
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.prog{
+    color: black;
+}
+.prog .part h2{
+    margin-top: 0px;
+    font-weight: bold;
+}
+.prog .part button
+{
+    margin-bottom: 5px;
+}
+.prog .progress
+{
+    height: 40px;
+}
+.progress-bar{
+    line-height: 40px;
+    font-size: 13px;
+    text-align: left;
+    text-indent: 10px;
+    font-weight: bold;
+}
+/* End Progress*/
+/* start Us*/
+.us
+{
+    background: url(images/50692401-directly-above-shot-of-businessmen-using-laptops-at-desk-in-office.jpg) center center fixed no-repeat ;
+    background-size: cover;
+    max-height: 900px;
+    height: 500px;
+    min-height: 300px;
+    width: 100%;
+}
+.us .overlayy
+{
+      background-color: rgba(2,2,2,0.8);
+      max-height: 900px;
+      width: 100%;
+      height: 500px;
+}
+.us .overlayy .heading i{
+    margin-top: 15px;
+}
+.us .overlayy .heading p
+{
+    margin-bottom: 30px;
+}
+.us .overlayy input,.us .overlayy textarea
+{
+background-color: rgba(82,78,78,0.7);
+border:black ;
+}
+/* End Us*/
+/* start Footer*/
+.footer{
+    overflow: hidden;
+    background-color: /*#333*/ black;
+    color: #b3afaf;
+    padding: 15px;
+}
+.footer .foot .three li{
+    width: 33.333333%;
+    float: left;
+    padding: 5px;
+   transition:  ease-in-out all 0.5s;
+    
+}
+.footer .foot .three li:hover
+{
+    color: white;
+}
+.iconss i:hover
+    {
+  color: white;
+    }
+.iconss i{
+    margin-top: 17px;
+    transition: ease-in-out all 0.5s;
+}
+.footer .foot h2{
+    color: #2a81e2;
+}
+.foot2 h2{
+    color:#2a81e2;
+}
+.imggroup h2{
+    color:#2a81e2 ;
+}
+.images img{
+    max-width:100% ;
+    height: 100px;
+    width: 150px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+    border: 3px solid black;
+}
+ /*end of footer*/
+ /*start of coprights*/
+.copyright{
+    text-align: center;
+    background-color:rgb(54, 52, 52) ;
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+}
+ /*End of copyrights*/
+
